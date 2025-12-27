@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<bool name="pref_camera_parallel_process_enable_default">true</bool>
+	<bool name="pref_ultra_parallel_default">true</bool>
+	<bool name="pref_parallel_filters_default">true</bool>
+	<bool name="pref_render_engine_default">true</bool>
+</resources>
