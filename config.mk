@@ -42,17 +42,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PRODUCT_PROPERTIES += \
 	ro.com.google.lens.oem_camera_package=com.android.camera \
 	ro.product.mod_device=surya_global \
-	camera.disable_zsl_mode=true \
 	ro.miui.build.region=in \
 	ro.miui.notch=1
 
 PRODUCT_SYSTEM_PROPERTIES += \
 	persist.vendor.camera.privapp.list=com.android.camera \
 	vendor.camera.aux.packagelist=com.android.camera
-
-# Sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += \
-	vendor/xiaomi/camera/sepolicy/vendor
 
 # Shims
 PRODUCT_PACKAGES += \
